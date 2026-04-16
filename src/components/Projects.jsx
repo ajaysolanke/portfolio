@@ -32,7 +32,6 @@ const projects = [
         name: "Farm29",
         description: [
             "A grocery web application based on the next-day delivery model",
-            "Developed a dashboard for infrastructure(Snowflake) admins where they could perform otherwise manually, which was tedious, error-prone and time taking",
             "Worked on features: cart, monthly pack, subscription, coupons., Admin web panels for Superuser, Warehouse."
         ],
     },

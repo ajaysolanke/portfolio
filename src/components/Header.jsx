@@ -13,8 +13,8 @@ export default function Header() {
         </h2>
         <br/>
         <ul>
-            {skills.map(skill => 
-            <li className="inline-block">
+            {skills.map((skill,i) => 
+            <li key={i} className="inline-block">
                 <Chip label={skill} />
                 </li>
             )}
